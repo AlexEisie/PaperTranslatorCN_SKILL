@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Paper to Chinese LaTeX"
+  short_description: "Translate paper PDFs into Chinese LaTeX and PDF"
+  default_prompt: "Use $paper-pdf-to-cn-latex to translate this English paper PDF into fluent Chinese LaTeX/PDF, prefer arXiv TeX source when available, keep figures and tables as images, and name the final PDF after the original English paper title."

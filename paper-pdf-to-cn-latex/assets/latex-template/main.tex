@@ -1,0 +1,53 @@
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+
+\usepackage[a4paper,margin=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+\setstretch{1.15}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.35em}
+\setlist[itemize]{nosep,leftmargin=2.4em}
+\setlist[enumerate]{nosep,leftmargin=2.8em}
+\graphicspath{{figures/}}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue
+}
+
+\title{替换为中文标题}
+\author{替换为作者信息}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+{\small 原文标题：Replace with original English title}
+\end{center}
+
+\begin{abstract}
+\input{sections/00-abstract.tex}
+\end{abstract}
+
+\tableofcontents
+\clearpage
+
+\input{sections/10-body.tex}
+
+\clearpage
+\input{sections/99-references.tex}
+
+\end{document}
